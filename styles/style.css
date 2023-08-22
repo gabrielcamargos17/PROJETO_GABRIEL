@@ -29,7 +29,6 @@ body{
     margin-bottom: 8px;
     justify-content: space-between;
     display: flex;
-    margin-right: 8px;
     background-color: black;
 }
 a{
@@ -95,6 +94,7 @@ img{
     width: 100%;
     float: left;
     text-align: center;
+    justify-content: space-between;
 }
 
 .menu li {
@@ -104,6 +104,7 @@ img{
 
 .menu li a {
     font-size: 1.3em;
+    display: flex;
     color: #fff;
     padding: 1.5% 3%;
 }
@@ -148,6 +149,8 @@ img{
 
 .body-index{
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .body-index img{
@@ -163,4 +166,3 @@ img{
     font-size: 12px;
     color: orange;
 }
-
